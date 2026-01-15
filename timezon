@@ -21,10 +21,10 @@ title                    : "Kyungho Kim's Story"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Kim Kyungho"
-description              : "10년 뒤의 청사진을 그려보라"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "2026.1.10 대학교 선배의 홈페이지로부터 영감을 받았습니다. 제가 느낀 것, 본 것, 전부로 페이지를 차차 채워나갈 예정입니다."
+url                      : "https://kkhinmbb.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "kkhinmbb/kkhimbb.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -113,10 +113,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Kim Kyungho"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Industrial & Management Engineering @POSTECH"
+  location         : "Pohang, Korea"
   email            :
   links:
     - label: "Email"
@@ -229,7 +229,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Asia/Seoul"
 
 
 # Pagination with jekyll-paginate
