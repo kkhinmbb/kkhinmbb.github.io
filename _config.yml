@@ -24,7 +24,7 @@ name                     : "Kim Kyungho"
 description              : "2026.1.10 대학교 선배의 홈페이지로부터 영감을 받았습니다. 제가 느낀 것, 본 것, 전부로 페이지를 차차 채워나갈 예정입니다."
 url                      : "https://kkhinmbb.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "kkhinmbb/kkhimbb.github.io"
+repository               : "kkhinmbb/kkhinmbb.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
