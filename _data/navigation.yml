@@ -1,10 +1,8 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Home"
+    url: "/"
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Study"
-    url: "/categories/study/"
-  - title: "Archive"
-    url: "/categories/archive/"
+    url: "/about/"      # 이제 내 About 페이지로 연결됩니다.
+  - title: "Categories" # Study 대신 전체 카테고리 목록을 보여주는 게 좋습니다.
+    url: "/categories/" # 아까 만든 category-archive.md로 연결됩니다.
