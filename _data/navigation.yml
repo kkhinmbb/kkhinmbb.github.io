@@ -7,7 +7,7 @@ main:
     url: "/about/"
 
   - title: "Study"
-    url: "#"                     # [중요] 이 줄을 추가해야 마우스 올렸을 때 인식합니다!
+    url: "/categories/"    # [중요] 이 줄을 추가해야 마우스 올렸을 때 인식합니다!
     children:
       - title: "Finance"
         url: "/categories/finance/"
