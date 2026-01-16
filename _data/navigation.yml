@@ -7,7 +7,7 @@ main:
     url: "/about/"
 
   - title: "Study"
-    url: "/categories/"    # [중요] 이 줄을 추가해야 마우스 올렸을 때 인식합니다!
+    url: "/categories/"         # 클릭하면 전체 카테고리 목록으로 이동
     children:
       - title: "Finance"
         url: "/categories/finance/"
@@ -15,7 +15,7 @@ main:
         url: "/categories/strategy/"
         
   - title: "Archives"
-    url: "#"                     # [중요] 여기도 추가!
+    url: "/categories/"         # 여기도 '#' 대신 주소를 넣어줍니다.
     children:
       - title: "Diary"
         url: "/categories/diary/"
