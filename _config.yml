@@ -314,14 +314,17 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
       author_profile: true
+      # 👇 이 두 줄을 추가하면 왼쪽 메뉴가 생깁니다!
+      sidebar:
+        nav: "main"
+      # 👆 여기까지
       read_time: true
-      comments: # true
+      comments: true # (주석 풀려있으면 true)
       share: true
       related: true
