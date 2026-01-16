@@ -6,7 +6,6 @@ main:
   - title: "About"
     url: "/about/"
 
-  # [여기 주목!] Study 밑에 새끼 메뉴(children)를 만듭니다.
   - title: "Study"
     children:
       - title: "Finance"
@@ -16,8 +15,7 @@ main:
         
   - title: "Archives"
     children:
-      - title: 'Diary'
+      - title: "Diary"
         url: "/categories/diary/"
-      - title: 'Annual reflection plan'
+      - title: "Annual Reflection"
         url: "/categories/annual-reflection-plan/"
-    
