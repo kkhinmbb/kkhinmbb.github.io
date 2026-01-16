@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: main # 혹시 브랜치 이름이 master라면 master로 수정 (보통은 main)
+
+media_folder: "assets/images" # 사진 올리면 저장될 폴더
+public_folder: "/assets/images" # 글에서 사진 불러올 때 쓸 주소
+
+# 글쓰기 메뉴 설정
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Categories", name: "categories", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
