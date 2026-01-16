@@ -2,7 +2,22 @@
 main:
   - title: "Home"
     url: "/"
+    
   - title: "About"
-    url: "/about/"      # 이제 내 About 페이지로 연결됩니다.
-  - title: "Categories" # Study 대신 전체 카테고리 목록을 보여주는 게 좋습니다.
-    url: "/categories/" # 아까 만든 category-archive.md로 연결됩니다.
+    url: "/about/"
+
+  # [여기 주목!] Study 밑에 새끼 메뉴(children)를 만듭니다.
+  - title: "Study"
+    children:
+      - title: "Finance"
+        url: "/categories/finance/"
+      - title: "Strategy"
+        url: "/categories/strategy/"
+        
+  - title: "Archives"
+    children:
+      - title: 'Diary'
+        url: "/categories/diary/"
+      - title: 'Annual reflection plan'
+        url: "/categories/annual-reflection-plan/"
+    
