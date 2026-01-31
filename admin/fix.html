@@ -2,16 +2,26 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>비상 비밀번호 설정</title>
+  <title>비밀번호 설정</title>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
-<body>
-  <h1>잠시만 기다리세요... 비밀번호 창이 뜹니다.</h1>
+<body style="text-align: center; padding-top: 50px;">
   
+  <h1>👇 아래 버튼을 누르면 무조건 뜹니다 👇</h1>
+  
+  <button id="btn" style="font-size: 20px; padding: 20px; cursor: pointer;">
+    비밀번호 설정창 열기 (클릭)
+  </button>
+
   <script>
-    // 2. 길 잃지 않게 "본사 주소"를 강제로 알려주는 코드
+    // 1. 연결 설정
     netlifyIdentity.init({
       APIUrl: "https://sparkling-meerkat-51fb66.netlify.app/.netlify/identity"
+    });
+
+    // 2. 버튼 누르면 강제로 열기
+    document.getElementById('btn').addEventListener('click', function() {
+      netlifyIdentity.open();
     });
   </script>
 </body>
