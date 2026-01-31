@@ -7,5 +7,12 @@
 </head>
 <body>
   <h1>잠시만 기다리세요... 비밀번호 창이 뜹니다.</h1>
+  
+  <script>
+    // 2. 길 잃지 않게 "본사 주소"를 강제로 알려주는 코드
+    netlifyIdentity.init({
+      APIUrl: "https://sparkling-meerkat-51fb66.netlify.app/.netlify/identity"
+    });
+  </script>
 </body>
 </html>
