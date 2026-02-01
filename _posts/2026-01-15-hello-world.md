@@ -3,7 +3,6 @@ title: 첫 글입니다.
 date: 2026-02-01T06:36:16.825Z
 categories:
   - about
-  - diary
 tags:
   - Welcome
 ---
